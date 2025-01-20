@@ -1,0 +1,95 @@
+:root {
+    --orange-color: #FEA301;
+    --sky-blue-color: #01ACFD;
+    --black-color: #111111;
+    --white-color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: "Quicksand", serif;
+}
+
+/* sharing styles */
+.paragraph {
+    color: var(--black-color);
+    font-size: 1.25rem;
+}
+
+.btn-primary {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    border: none;
+    padding: 10px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-weight: SemiBold;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #fea101ce;
+}
+
+
+
+.display-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.align-items {
+    align-items: center;
+}
+
+.display-grid {
+    display: grid;
+}
+
+.place-items-center {
+    place-items: center;
+}
+
+.width-1200px {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* =====header===== */
+/* =====hero-section===== */
+/* =====standard-section===== */
+/* =====story-section===== */
+/* =====footer===== */
+
+/* media queries */
+
+
+
+@media (min-width: 576px) {}
+
+
+@media (min-width: 768px) {}
+
+
+@media (min-width: 992px) {}
+
+
+@media (min-width: 1200px) {}
+
+
+@media (min-width: 1400px) {}
